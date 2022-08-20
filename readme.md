@@ -1,4 +1,4 @@
-<h1 align="center">Sistema de compra de pizzas :pizza:</h1>
+<h1 align="center">Projeto Awax</h1>
 
 <h3>projeto desenvolvido para aplicar conhecimento adquirido em curso, e acrescentar ao portfólio pessoal.</h3>
 <br/><hr><br/>
@@ -16,22 +16,22 @@
 <div id="sobre">
     <h1 align="center">Sobre :pencil2:</h1>
     <br/>
-    Aplicação simulando um sistema de pizzaria podendo escolher o sabor, tamanho e quantidade da pizza desejada. As pizzas são obtidas através de uma requisição (simulação) de API que contém as informações. Após selecionado o sabor, tamanho e quantidade da pizza, abre um carrinho de compras com todas as informações que você selecionar, podendo também atualizar quantidade no carrinho e remover todos os itens do mesmo. Tudo feito em uma única página, após selecionada a pizza desejada abre um modal com as informações para escolher tamanho e quantidade, tudo sendo calculado e atualizado automaticamente.
+    Projeto Awax feito somente para fins de estudo e aplicar conhecimento sobre css (flexbox/seletores/manipulação de elementos) e html, javascript utilizado para desenvolver o menu-mobile, sliders ainda não estão prontos serão atualizados em breve :construction:, site totalmente responsivo e adaptado para qualquer tela!
 </div>
 <br/><hr><br/>
 <div id="preview">
     <h1>Pré Visualização</h1>
     <br/>
     <p align="center">
-    <img src="images/preview.jpeg" alt="previewdesktop"/>
+    <img src="assets/images/preview.jpeg" alt="previewdesktop"/>
     </p>
     <p align="center">
-    <img src="images/mobile-view.png" alt="mobileview"/>
+    <img src="assets/images/mobile-view.png" alt="mobileview"/>
     </p>
 </div>
 <div id="teste">
     <h1>Teste :pencil2:</h1>
-    <p align="center"><a href="https://fernandobardelli.github.io/pizzaria/" target="_blank">Confira aqui</a></p>
+    <p align="center"><a href="https://fernandobardelli.github.io/projeto-awax/" target="_blank">Confira aqui</a></p>
 </div>
 <br/><hr><br/>
 <div id="tecnologias">
