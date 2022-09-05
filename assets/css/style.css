@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    scroll-behavior:smooth;
 }
 body {
     font-family:'Montserrat', Arial, Helvetica, sans-serif;
@@ -86,6 +87,9 @@ header {
     color:#FFF;
     box-shadow:0px 5px 5px #333;
 }
+.sliders {
+    transition: transform 250ms ease-in-out; 
+}
 .banner {
     height:calc(100vh - 100px);
     background-color:#333;
@@ -95,7 +99,7 @@ header {
     overflow:hidden;
 }
 .banner .sliders {
-    width: 1000vw;
+    width: 500vw;
     height: 100%;
 }
 .banner .slide {
@@ -112,10 +116,23 @@ header {
     align-items: center;
     color:#FFF;
 }
+@keyframes moveTop {
+    0% {transform: translateY(100px); opacity: 0;}
+    100% {transform: translateY(0); opacity: 1;}
+}
 .banner h1 {
     text-transform:uppercase;
     font-weight: bold;
     font-size:50px;
+
+    opacity:0;
+
+    animation-name: moveTop;
+    animation-duration:1s;
+    animation-delay:1s;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+
 }
 .banner h1 span {
     color:#b28756;
@@ -123,6 +140,23 @@ header {
 .banner h2 {
     text-transform: uppercase;
     margin-top:20px;
+
+    opacity:0;
+
+    animation-name: moveTop;
+    animation-duration:1s;
+    animation-delay:1.5s;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+.banner .button {
+    opacity:0;
+
+    animation-name: moveTop;
+    animation-duration:1s;
+    animation-delay:2s;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
 }
 .banner .sliders-pointers {
     width:100%;
